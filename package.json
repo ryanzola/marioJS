@@ -1,0 +1,31 @@
+{
+  "name": "begging-with-gsap",
+  "version": "1.0.0",
+  "description": "playground for all of my cool gsap svg animations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -p --progress && babel-node server.js",
+    "dev": "webpack -wd"
+  },
+  "author": "Ryan Zola",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "gsap": "^2.0.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "engines": {
+    "node": "9.8.0",
+    "npm": "5.6.0"
+  }
+}
