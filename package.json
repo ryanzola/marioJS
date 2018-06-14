@@ -21,7 +21,6 @@
   },
   "dependencies": {
     "express": "^4.16.3",
-    "gsap": "^2.0.1",
     "serve-favicon": "^2.5.0"
   },
   "engines": {
