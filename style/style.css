@@ -14,15 +14,3 @@ body {
   padding: 0;
   margin: 0;
 }
-
-.svg-canvas {
-  height: 100%;
-  width: 100%;
-}
-
-.heart {
-  fill: red;
-  stroke: transparent;
-  transform: translate(50%, 50%);
-  transform-origin: center center;
-}

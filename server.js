@@ -9,6 +9,7 @@ app.use(favicon(path.join(__dirname, 'favicon.ico')));
 app.use(express.static('./dist'));
 app.use('/dist', express.static(__dirname + 'dist'));
 app.use('/assets', express.static(__dirname + '/assets'));
+app.use(express.static('./levels'));
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist/index.html'));
