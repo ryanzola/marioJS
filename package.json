@@ -1,28 +1,16 @@
 {
-  "name": "begging-with-gsap",
+  "name": "mario",
   "version": "1.0.0",
   "description": "playground for all of my cool gsap svg animations",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "npm run build",
-    "start": "webpack -p --progress && babel-node server.js",
-    "dev": "webpack -wd"
+    "start": "serve ./public"
   },
   "author": "Ryan Zola",
   "license": "ISC",
-  "devDependencies": {
-    "babel-core": "^6.21.0",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.7.0",
-    "css-loader": "^0.28.11",
-    "style-loader": "^0.21.0",
-    "webpack": "^4.8.3",
-    "webpack-cli": "^2.1.4"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "express": "^4.16.3",
-    "serve-favicon": "^2.5.0"
+    "serve": "^9.1.0"
   },
   "engines": {
     "node": "9.8.0",
