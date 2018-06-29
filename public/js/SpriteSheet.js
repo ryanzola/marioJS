@@ -7,21 +7,22 @@ export default class SpriteSheet {
   }
 
   define(name, x, y, width, height) {
-    const buffer = document.createElement('canvas')
-    buffer.width = width;
-    buffer.height = height;
+    const buffer = document.createElement('canvas');
+    buffer.width = width
+    buffer.height = height
     buffer
       .getContext('2d')
       .drawImage(
         this.image, 
         x, 
-        y,
-        width,
-        height,
-        0,
-        0,
-        width,
-        height);
+        y, 
+        width, 
+        height, 
+        0, 
+        0, 
+        width, 
+        height
+      )
     this.tiles.set(name, buffer);
   }
 
@@ -35,6 +36,6 @@ export default class SpriteSheet {
   }
 
   drawTile(name, context, x, y) {
-    this.draw(name, context, x * this.width, y * this.height)
+    this.draw(name, context, x * this.width, y * this.height);
   }
 }
