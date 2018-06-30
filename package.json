@@ -10,10 +10,20 @@
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
+    "jsdom-quokka-plugin": "^1.0.13",
+    "node-fetch": "^2.1.2",
     "serve": "^9.1.0"
   },
   "engines": {
     "node": "9.8.0",
     "npm": "5.6.0"
+  },
+  "quokka": {
+    "plugins": [
+      "jsdom-quokka-plugin"
+    ],
+    "jsdom": {
+      "file": "./public/index.html"
+    }
   }
 }
