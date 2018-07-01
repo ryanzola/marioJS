@@ -127,6 +127,7 @@
             "tile": "question",
             "type": "ground",
             "ranges": [
+                [4, 9],
                 [23, 9],
                 [28, 9],
                 [30, 9],
