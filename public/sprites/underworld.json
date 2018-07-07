@@ -9,7 +9,44 @@
     },
     {
       "name": "sky",
-      "index": [13, 3]
+      "index": [13, 1]
+    },
+    {
+      "name": "chocolate",
+      "index": [0, 3]
+    },
+    {
+      "name": "bricks",
+      "index": [1, 2]
+    },
+    {
+      "name": "question",
+      "index": [24, 2]
+    },
+    {
+      "name": "question-1",
+      "index": [24, 2]
+    },
+    {
+      "name": "question-2",
+      "index": [25, 2]
+    },
+    {
+      "name": "question-3",
+      "index": [26, 2]
+    }
+  ],
+  "animations": [
+    {
+      "name": "question",
+      "frameLen": 0.16,
+      "frames": [
+        "question-1",
+        "question-1",
+        "question-2",
+        "question-3",
+        "question-2"
+      ]
     }
   ]
 }
