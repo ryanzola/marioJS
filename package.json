@@ -12,7 +12,7 @@
   "dependencies": {
     "jsdom-quokka-plugin": "^1.0.13",
     "node-fetch": "^2.1.2",
-    "serve": "^9.1.0"
+    "serve": "^10.1.2"
   },
   "engines": {
     "node": "9.8.0",
